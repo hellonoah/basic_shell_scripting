@@ -3,7 +3,8 @@
 echo "Guess the secret color"
 
 read COLOR
-if [ $COLOR = "purple" ]
+#if [ $COLOR = "purple" ]
+if ( test $COLOR = "purple" )
 then
    echo "You are correct."
 else
